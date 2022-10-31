@@ -3,6 +3,14 @@
 ***
 # <span style="color:orange">Directory Navigation (<span style="color:green">Навигация по каталогу</span>)</span>
 
+<span style="color:red">  
+
+* cd ..   <span style="color:yellow">  - move up one level in the directory tree structure ( перейти на один уровень вверх в структуре дерева каталогов ) </span>
+* cd <span style="color:yellow">  - change directory to $HOME ( сменить каталог на $HOME ) </span>
+* cd/chosen/directory <span style="color:yellow">  - change to specified directory ( перейти в указанный каталог ) </span>
+
+</span>
+
 ***
 # <span style="color:orange">File Commands (<span style="color:green">Файловые команды</span>)</span>
 
