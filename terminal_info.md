@@ -67,5 +67,11 @@
 ***
 # <span style="color:orange">SSH Login (<span style="color:green">Вход по SSH</span>)</span>
 
+<span style="color:yellow">
+
+* **finger[username]** <span style="color:lightblue">  - **show** (*показать*) </span>
+
+</span>
+
 ***
 # <span style="color:orange">File Permission (<span style="color:green">Разрешение на файл</span>)</span>
