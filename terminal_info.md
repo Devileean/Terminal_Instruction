@@ -16,7 +16,24 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - **show** (*показать*) </span>
+* **ls** <span style="color:lightblue">  - **list files in directory** (*список файлов в директории*) </span>
+* **ls -a** <span style="color:lightblue">  - **list all files, including hidden** (*список всех файлов, включая скрытые*) </span>
+* **pwd** <span style="color:lightblue">  - **show the directory currently working in** (*показать каталог, в котором в данный момент работает*) </span>
+* **mkdir [directory]** <span style="color:lightblue">  - **create a new directory** (*создать новый каталог*) </span>
+* **rm [file_name]** <span style="color:lightblue">  - **remove a file** (*удалить файл*) </span>
+* **rm -r [directory_name]** <span style="color:lightblue">  - **remove a directory recursively** (*удалить каталог рекурсивно*) </span>
+* **rm -rf [directory_name]** <span style="color:lightblue">  - **remove a directory recursively without requiring confirmation** (*удалить каталог рекурсивно, не требуя подтверждения*) </span>
+* **cp [file_name1] [file_name2]** <span style="color:lightblue">  - **copy the contents of the first file to the second file** (*скопировать содержимое первого файла во второй файл*) </span>
+* **cp -r [directory_name1] [directory_name2]** <span style="color:lightblue">  - **recursively copy the contents of the first directory into the second directory** (*рекурсивно скопировать содержимое первого каталога во второй каталог*) </span>
+* **mv [file_name1] [file_name2]** <span style="color:lightblue">  - **rename file_name1 to file_name2** (*переименовать имя_файла1 в имя_файла2*) </span>
+* **ln -s /path/to[file_name] [link_name]** <span style="color:lightblue">  - **create a symbolic link to a file** (*создать символическую ссылку на файл*) </span>
+* **touch [file_name]** <span style="color:lightblue">  - **create a new file** (*создать новый файл*) </span>
+* **more [file_name]** <span style="color:lightblue">  - **show the contents of a file** (*показать содержимое файла*) </span>
+* **head [file_name]** <span style="color:lightblue">  - **show the first 10 lines of a file** (*показать первые 10 строк файла*) </span>
+* **tail [file_name]** <span style="color:lightblue">  - **show the last 10 lines of a file** (*показать последние 10 строк файла*) </span>
+* **gpg -c [file_name]** <span style="color:lightblue">  - **encrypt a file** (*зашифровать файл*) </span>
+* **gpg [file_name.gpg]** <span style="color:lightblue">  - **decrypt a file** (*расшифровать файл*) </span>
+* **wc** <span style="color:lightblue">  - **print the numberof words, lines, and bytes in file** (*вывести количество слов, строк и байтов в файле*) </span>
 
 </span>
 
