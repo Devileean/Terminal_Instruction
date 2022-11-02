@@ -42,7 +42,15 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - _**show**_ (*показать*) </span>
+* **id** <span style="color:lightblue">  - _**show details of the active user**_ (*показать информацию об активном пользователе*) </span>
+* **last** <span style="color:lightblue">  - _**show the last logins onto the system**_ (*показать последние входы в систему*) </span>
+* **who** <span style="color:lightblue">  - _**show who is logged into the system**_ (*показать, кто вошел в систему*) </span>
+* **w** <span style="color:lightblue">  - _**show who is logged in and their activity**_ (*показать, кто вошел в систему и их активность*) </span>
+* **groupadd [group_name]** <span style="color:lightblue">  - _**add a new group**_ (*добавить новую группу*) </span>
+* **adduser [user_name]** <span style="color:lightblue">  - _**add new user**_ (*добавить нового пользователя*) </span>
+* **usermod -aG [group_name] [user_name]** <span style="color:lightblue">  - _**add a user to a group**_ (*добавить пользователя в группу*) </span>
+* **userdel [user_name]** <span style="color:lightblue">  - _**delete a user**_ (*удалить пользователя*) </span>
+* **usermod** <span style="color:lightblue">  - _**use for changing/modifying user information**_ (*использовать для изменения / модификации информации о пользователе*) </span>
 
 </span>
 
