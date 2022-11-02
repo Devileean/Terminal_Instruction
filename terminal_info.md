@@ -73,7 +73,19 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - **show** (*показать*) </span>
+* **ip addr show** <span style="color:lightblue">  - _**show IP addresses and network interface**_ (*показать IP-адреса и сетевой интерфейс*) </span>
+* **ip address add [IP_address]** <span style="color:lightblue">  - _**assign an IP addresses to interface eth0**_ (*назначить IP-адреса интерфейсу eth0*) </span>
+* **ifconfig** <span style="color:lightblue">  - _**show IP addresses of all network interfaces**_ (*показать IP-адреса всех сетевых интерфейсов
+*) </span>
+* **netstat -pnltu** <span style="color:lightblue">  - _**show active (listening) posts**_ (*показывать активные (слушающие) посты*) </span>
+* **netstat -nutlp** <span style="color:lightblue">  - _**show tcp and udp ports and their programs **_ (*покажи tcp и udp порты и их программы*) </span>
+* **whois [domain]** <span style="color:lightblue">  - _**show more information about a domain**_ (*показать больше информации о домене*) </span>
+* **dig [domain]** <span style="color:lightblue">  - _**show DNS information about a domain**_ (*показать информацию DNS о домене*) </span>
+* **dig -x host** <span style="color:lightblue">  - _**reverse lookup on domain**_ (*обратный поиск в домене*) </span>
+* **dig -x [ip_address]** <span style="color:lightblue">  - **reverse lookup of an IP address** (*обратный поиск IP-адреса*) </span>
+* **host [domain]** <span style="color:lightblue">  - _**do an IP lookup for a domain**_ (*выполнить поиск IP для домена*) </span>
+* **hostname -l** <span style="color:lightblue">  - _**show the local IP address**_ (*показать локальный IP-адрес*) </span>
+* **wget [file_name]** <span style="color:lightblue">  - _**download a file from a domain**_ (*скачать файл с домена*) </span>
 
 </span>
 
