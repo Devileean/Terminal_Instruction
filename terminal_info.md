@@ -168,6 +168,10 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - **show** (*показать*) </span>
+* **chmod 777[file_name]** <span style="color:lightblue">  - **give read, write, and execute permission to everyone** (*дать всем разрешение на чтение, запись и выполнение*) </span>
+* **chmod 755[file_name]** <span style="color:lightblue">  - **give full permission to owner, and read and execute permission to group and others** (*дать полное разрешение владельцу, а также разрешение на чтение и выполнение для группы и других*) </span>
+* **chmod 766[file_name]** <span style="color:lightblue">  - **give full permission to owner, and read and write permission to group and others** (*дать полное разрешение владельцу, а также разрешение на чтение и запись для группы и других*) </span>
+* **chown [user] [file_name]** <span style="color:lightblue">  - **change the file ownership** (*изменить владельца файла*) </span>
+* **chown [user]: [group] [file_name]** <span style="color:lightblue">  - **change the owner and group ownership of a file** (*изменить владельца и группу владения файлом*) </span>
 
 </span>
