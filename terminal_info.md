@@ -51,7 +51,11 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - **show** (*показать*) </span>
+* **grep [pattern] [file_name]** <span style="color:lightblue">  - **search for a specific pattern in a file** (*поиск определенного шаблона в файле*) </span>
+* **grep -r [pattern] [directory_name]** <span style="color:lightblue">  - **search recursively for a specific pattern in a directory** (*рекурсивный поиск определенного шаблона в каталоге*) </span>
+* **locate [name]** <span style="color:lightblue">  - **find a files and directories by a specific name** (*найти файлы и каталоги по определенному имени*) </span>
+* **find [/folder/location] -name [a]** <span style="color:lightblue">  - **list names that begin with [a] in [/folder/location]** (*список имен, начинающихся с [a] в [/папка/расположение]*) </span>
+* **find [/folder/location] -size [+100M]** <span style="color:lightblue">  - **list files larger than 100M in a particular folder** (*список файлов размером более 100M в определенной папке*) </span>
 
 </span>
 
@@ -59,7 +63,8 @@
 # <span style="color:orange">File Transfer (<span style="color:green">Передача файлов</span>)</span>
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - **show** (*показать*) </span>
+* **scp [file_name.txt] [server/tmp]** <span style="color:lightblue">  - **securely copy a specific file to a server directory** (*безопасно скопировать определенный файл в каталог сервера*) </span>
+* **rsync -a [your/directory] [/backup/]** <span style="color:lightblue">  - **synchronize the contents of a specific directory with a backup directory** (*синхронизировать содержимое определенного каталога с резервным каталогом*) </span>
 
 </span>
 
