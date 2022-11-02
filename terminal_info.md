@@ -69,7 +69,10 @@
 
 <span style="color:yellow">
 
-* **finger[username]** <span style="color:lightblue">  - **show** (*показать*) </span>
+* **ssh user@host** <span style="color:lightblue">  - **connect to host as user** (*подключиться к хосту как пользователь*) </span>
+* **ssh host** <span style="color:lightblue">  - **securely connect to host via SSH default port 22** (*безопасно подключаться к хосту через порт SSH по умолчанию 22*) </span>
+* **ssh -p [port] user@host** <span style="color:lightblue">  - **connect to host using a particular port** (*подключиться к хосту, используя определенный порт*) </span>
+* **telnet host** <span style="color:lightblue">  - **connect to host via telnet default port 23** (*подключиться к хосту через порт telnet по умолчанию 23*) </span>
 
 </span>
 
