@@ -133,7 +133,14 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - <ins>_**show**_ (*показать*)</ins></span>
+* **yum search [keyword]** <span style="color:lightblue">  - <ins>_**find a package by a related keyword**_ (*найти пакет по родственному ключевому слову*)</ins></span>
+* **yum info [package_name]** <span style="color:lightblue">  - <ins>_**show package information and summary**_ (*показать информацию о пакете и сводку*)</ins></span>
+* **yum install [package_name.rmp]** <span style="color:lightblue">  - <ins>_**install a package usin the YUM package manager**_ (*установить пакет с помощью менеджера пакетов YUM*)</ins></span>
+
+* **dnf install [package_name.rmp]** <span style="color:lightblue">  - <ins>_**install a package using the DNF package manager**_ (*установить пакет с помощью менеджера пакетов DNF*)</ins></span>
+* **rpm -i [package_name.rmp]** <span style="color:lightblue">  - <ins>_**install an rpm from a local file**_ (*установить rpm из локального файла*)</ins></span>
+* **rpm -e [package_name.rmp]** <span style="color:lightblue">  - <ins>_**remove an rmp package**_ (*удалить пакет rmp*)</ins></span>
+* **tar zxvf [source_code.tar.gz] cd [source_code]./configure make make install** <span style="color:lightblue">  - <ins>_**install software from source code**_ (*установить программу из исходного кода*)</ins></span>
 
 </span>
 
