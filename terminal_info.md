@@ -147,7 +147,19 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - <ins>_**show**_ (*показать*)</ins></span>
+* **Ctrl + C** <span style="color:lightblue">  - <ins>_**kill current process running in the terminal**_ (*убить текущий процесс, запущенный в терминале*)</ins></span>
+* **Ctrl + Z** <span style="color:lightblue">  - <ins>_**stop current process (can be resumed in the foreground with fg or in the backround with bg**_ (*остановить текущий процесс (можно возобновить на переднем плане с помощью fg или в фоновом режиме с помощью bg*)</ins></span>
+* **Ctrl + W** <span style="color:lightblue">  - <ins>_**cut one word before the cursor and add it to clipboar**_ (*вырезать одно слово перед курсором и добавить его в буфер обмена*)</ins></span>
+* **Ctrl + U** <span style="color:lightblue">  - <ins>_**cut part of the line before the cursor and add it to clipboard**_ (*вырезать часть строки перед курсором и добавить в буфер обмена*)</ins></span>
+* **Ctrl + K** <span style="color:lightblue">  - <ins>_**cut part of the line after the cursor and add it to clipboard**_ (*вырезать часть строки после курсора и добавить в буфер обмена*)</ins></span>
+* **Ctrl + Y** <span style="color:lightblue">  - <ins>_**past from clipboard**_ (*прошлое из буфера обмена*)</ins></span>
+* **Ctrl + R** <span style="color:lightblue">  - <ins>_**recall last command that matches the provided characters**_ (*вызвать последнюю команду, которая соответствует предоставленным символам
+*)</ins></span>
+* **Ctrl + O** <span style="color:lightblue">  - <ins>_**run the previously recalled command**_ (*запустить ранее вызванную команду*)</ins></span>
+* **Ctrl + G** <span style="color:lightblue">  - <ins>_**show**_ (*показать*)</ins></span>
+* **!!** <span style="color:lightblue">  - <ins>_**repat the last command**_ (*повторить последнюю команду*)</ins></span>
+* **exit** <span style="color:lightblue">  - <ins>_**log out of current session**_ (*выйти из текущей сессии*)</ins></span>
+
 
 </span>
 
