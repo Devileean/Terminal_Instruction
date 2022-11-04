@@ -102,7 +102,17 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - <ins>_**show**_(*показать*)</ins></span>
+* **dmesg** <span style="color:lightblue">  - <ins>_**show boot messages**_(*показать загрузочные сообщения*)</ins></span>
+* **cat/proc/cpuinfo** <span style="color:lightblue">  - <ins>_**show CPU information**_(*показать информацию о процессоре*)</ins></span>
+* **free -h** <span style="color:lightblue">  - <ins>_**show free and used memory (-m flag indicates memory in MB)**_(*показать свободную и используемую память (флаг -m указывает память в МБ)*)</ins></span>
+* **lshw** <span style="color:lightblue">  - <ins>_**list information about hardware configuration**_(*вывести информацию о конфигурации оборудования*)</ins></span>
+* **lsblk** <span style="color:lightblue">  - <ins>_**list information about block devices**_(*вывести информацию о блочных устройствах*)</ins></span>
+* **lspci -tv** <span style="color:lightblue">  - <ins>_**show PCI devices in a tree-like diagram**_(*показать устройства PCI в виде древовидной схемы*)</ins></span>
+* **lsusb -tv** <span style="color:lightblue">  - <ins>_**show USB devices in tree-like diagram**_(*показать USB-устройства в древовидной диаграмме*)</ins></span>
+* **dmidecode** <span style="color:lightblue">  - <ins>_**show hardware information from the BIOS**_(*показать информацию об оборудовании из BIOS*)</ins></span>
+* **hdparm -i/dev/[disk]** <span style="color:lightblue">  - <ins>_**show information about disk data**_(*показать информацию о данных диска*)</ins></span>
+* **hdparm -tT/dev/[disk]* <span style="color:lightblue">  - <ins>_**conduct a read speed test on disk**_(*провести тест скорости чтения на диске*)</ins></span>
+* **badblocks -s/dev/[disk]** <span style="color:lightblue">  - <ins>_**test for unreadable blocks on disk**_(*тест на наличие нечитаемых блоков на диске*)</ins></span>
 
 </span>
 
@@ -111,7 +121,10 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - <ins>_**show**_ (*показать*)</ins></span>
+* **tar cf [compressed_file.tar][file_name]** <span style="color:lightblue">  - <ins>_**create an archived file from a file**_ (*создать архивный файл из файла*)</ins></span>
+* **tar xf [compressed_file.tar]** <span style="color:lightblue">  - <ins>_**extrackt arhived file**_ (*извлечь файл из архива*)</ins></span>
+* **tar czf [compressed_file.gz]** <span style="color:lightblue">  - <ins>_**create a gzip compressed tar file**_ (*создать сжатый tar-файл gzip*)</ins></span>
+* **gzip [file_name]** <span style="color:lightblue">  - <ins>_**compress a file with the .gz extension**_ (*сжать файл с расширением .gz*)</ins></span>
 
 </span>
 
@@ -139,6 +152,13 @@
 <span style="color:yellow">
 
 * **finger** <span style="color:lightblue">  - <ins>_**show**_ (*показать*)</ins></span>
+ * **df -h** <span style="color:lightblue">  - <ins>_**show free and used space on mounted systems**_ (*показать свободное и занятое пространство на смонтированных системах*)</ins></span>
+ * **df -i** <span style="color:lightblue">  - <ins>_**show free inodes on mounted filesystems**_ (*показать свободные индексы в смонтированных файловых системах*)</ins></span>
+ * **fdisk -l** <span style="color:lightblue">  - <ins>_**show disk partitions, sizes, and types**_ (*показать разделы диска, размеры и типы*)</ins></span>
+ * **du -ah** <span style="color:lightblue">  - <ins>_**show disk usage for all files and directory**_ (*показать использование диска для всех файлов и каталогов*)</ins></span>
+ * **du -sh** <span style="color:lightblue">  - <ins>_**show disk usage of current directory**_ (*показать использование диска в текущем каталоге*)</ins></span>
+ * **findmnt** <span style="color:lightblue">  - <ins>_**show target mount point for all filesystem**_ (*показать целевую точку монтирования для всей файловой системы*)</ins></span>
+ * **mount [devices_path] [mouth_point]** <span style="color:lightblue">  - <ins>_**mount a device**_ (*смонтировать устройство*)</ins></span>
 
 </span>
 
@@ -147,13 +167,18 @@
 
 <span style="color:yellow">
 
-* **df -h** <span style="color:lightblue">  - <ins>_**show free and used space on mounted systems**_ (*показать свободное и занятое пространство на смонтированных системах*)</ins></span>
-* **df -i** <span style="color:lightblue">  - <ins>_**show free inodes on mounted filesystems**_ (*показать свободные индексы в смонтированных файловых системах*)</ins></span>
-* **fdisk -l** <span style="color:lightblue">  - <ins>_**show disk partitions, sizes, and types**_ (*показать разделы диска, размеры и типы*)</ins></span>
-* **du -ah** <span style="color:lightblue">  - <ins>_**show disk usage for all files and directory**_ (*показать использование диска для всех файлов и каталогов*)</ins></span>
-* **du -sh** <span style="color:lightblue">  - <ins>_**show disk usage of current directory**_ (*показать использование диска в текущем каталоге*)</ins></span>
-* **findmnt** <span style="color:lightblue">  - <ins>_**show target mount point for all filesystem**_ (*показать целевую точку монтирования для всей файловой системы*)</ins></span>
-* **mount [devices_path] [mouth_point]** <span style="color:lightblue">  - <ins>_**mount a device**_ (*смонтировать устройство*)</ins></span>
+* **Ctrl + C** <span style="color:lightblue">  - <ins>_**kill current process running in the terminal**_ (*убить текущий процесс, запущенный в терминале*)</ins></span>
+* **Ctrl + Z** <span style="color:lightblue">  - <ins>_**stop current process (can be resumed in the foreground with fg or in the backround with bg**_ (*остановить текущий процесс (можно возобновить на переднем плане с помощью fg или в фоновом режиме с помощью bg*)</ins></span>
+* **Ctrl + W** <span style="color:lightblue">  - <ins>_**cut one word before the cursor and add it to clipboar**_ (*вырезать одно слово перед курсором и добавить его в буфер обмена*)</ins></span>
+* **Ctrl + U** <span style="color:lightblue">  - <ins>_**cut part of the line before the cursor and add it to clipboard**_ (*вырезать часть строки перед курсором и добавить в буфер обмена*)</ins></span>
+* **Ctrl + K** <span style="color:lightblue">  - <ins>_**cut part of the line after the cursor and add it to clipboard**_ (*вырезать часть строки после курсора и добавить в буфер обмена*)</ins></span>
+* **Ctrl + Y** <span style="color:lightblue">  - <ins>_**past from clipboard**_ (*прошлое из буфера обмена*)</ins></span>
+* **Ctrl + R** <span style="color:lightblue">  - <ins>_**recall last command that matches the provided characters**_ (*вызвать последнюю команду, которая соответствует предоставленным символам
+*)</ins></span>
+* **Ctrl + O** <span style="color:lightblue">  - <ins>_**run the previously recalled command**_ (*запустить ранее вызванную команду*)</ins></span>
+* **Ctrl + G** <span style="color:lightblue">  - <ins>_**show**_ (*показать*)</ins></span>
+* **!!** <span style="color:lightblue">  - <ins>_**repat the last command**_ (*повторить последнюю команду*)</ins></span>
+* **exit** <span style="color:lightblue">  - <ins>_**log out of current session**_ (*выйти из текущей сессии*)</ins></span>
 
 
 </span>
