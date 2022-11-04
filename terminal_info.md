@@ -152,6 +152,14 @@
 <span style="color:yellow">
 
 * **finger** <span style="color:lightblue">  - <ins>_**show**_ (*показать*)</ins></span>
+* **df -h** <span style="color:lightblue">  - <ins>_**show free and used space on mounted systems**_ (*показать свободное и занятое пространство на смонтированных системах*)</ins></span>
+* **df -i** <span style="color:lightblue">  - <ins>_**show free inodes on mounted filesystems**_ (*показать свободные индексы в смонтированных файловых системах*)</ins></span>
+* **fdisk -l** <span style="color:lightblue">  - <ins>_**show disk partitions, sizes, and types**_ (*показать разделы диска, размеры и типы*)</ins></span>
+* **du -ah** <span style="color:lightblue">  - <ins>_**show disk usage for all files and directory**_ (*показать использование диска для всех файлов и каталогов*)</ins></span>
+* **du -sh** <span style="color:lightblue">  - <ins>_**show disk usage of current directory**_ (*показать использование диска в текущем каталоге*)</ins></span>
+* **findmnt** <span style="color:lightblue">  - <ins>_**show target mount point for all filesystem**_ (*показать целевую точку монтирования для всей файловой системы*)</ins></span>
+* **mount [devices_path] [mouth_point]** <span style="color:lightblue">  - <ins>_**mount a device**_ (*смонтировать устройство*)</ins></span>
+
 
 </span>
 
