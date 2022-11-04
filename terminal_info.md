@@ -129,7 +129,17 @@
 
 <span style="color:yellow">
 
-* **finger** <span style="color:lightblue">  - <ins>_**show**_ (*показать*)</ins></span>
+* **ps** <span style="color:lightblue">  - <ins>_**show a snapshot of active processes**_ (*показать снимок активных процессов*)</ins></span>
+* **pstree** <span style="color:lightblue">  - <ins>_**show processes as a tree**_ (*показать процессы в виде дерева*)</ins></span>
+* **pmap** <span style="color:lightblue">  - <ins>_**shows a memory usage map of processes**_ (*показывает карту использования памяти процессов*)</ins></span>
+* **top** <span style="color:lightblue">  - <ins>_**show all running processes**_ (*показать все запущенные процессы*)</ins></span>
+* **kill [process_id]** <span style="color:lightblue">  - <ins>_**kill a process under a given ID**_ (*убить процесс под заданным ID*)</ins></span>
+* **pkill [proc_name]* <span style="color:lightblue">  - <ins>_**kill a processes under the specified name**_ (*убить процессы под указанным именем*)</ins></span>
+* **killall [proc_name]** <span style="color:lightblue">  - <ins>_**kill all processes labelled proc**_ (*убить все процессы с пометкой proc*)</ins></span>
+* **bg** <span style="color:lightblue">  - <ins>_**list and resume stopped jobs in the background**_ (*список и возобновление остановленных заданий в фоновом режиме*)</ins></span>
+* **fg** <span style="color:lightblue">  - <ins>_**bring the most recent suspended jop to the foreground**_ (*вывести на передний план самый последний приостановленный прыжок*)</ins></span>
+* **fg [job]** <span style="color:lightblue">  - <ins>_**bring a particular job to the foreground**_ (*вывести конкретную работу на передний план*)</ins></span>
+* **lsof** <span style="color:lightblue">  - <ins>_**list files opened by processes**_ (*список файлов, открытых процессами*)</ins></span>
 
 </span>
 
